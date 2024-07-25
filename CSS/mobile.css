@@ -1,0 +1,11 @@
+body{
+    max-width: 600px;
+}
+
+.ads{
+    display: none;
+}
+
+.course{
+    width: 100%;
+}

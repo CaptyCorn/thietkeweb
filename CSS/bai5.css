@@ -1,0 +1,130 @@
+:root{
+    --p:20px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: rgb(53, 101, 156);
+}
+
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+ul.menu > li{
+    display: block;
+    padding: 1.5rem;
+    border-left: 0.5px solid white;
+}
+
+ul.menu:last-child>li{
+    border-left: 0;
+}
+
+ul.menu > li:hover{
+    background-color: blue;
+}
+
+/* Header*/
+
+header{
+    background-image: radial-gradient(darkblue,blue);
+    color: white;
+    margin: 3px;
+}
+
+header img{
+    width: 50%;
+}
+
+h1.subject{
+    text-shadow: 2px 2px 1px;
+}
+
+/* Footer */
+ footer{
+     background-color: #0a6fa3;
+ }
+ 
+ ul.footer{
+     list-style-type: none;
+     color: white;
+ }
+
+/* main */
+
+ .course{
+     width: 70%;
+     margin: 0 auto;
+ }
+
+.forums{
+   
+    color: white;
+}
+
+.forums:last-child{
+    border-radius: 0 0 var(--p) var(--p);
+}
+
+.forums div{
+    background-color: rgb(92, 190, 223);
+}
+
+ h2{
+     background-color: rgb(26, 82, 202);
+     color: white;
+     margin: 0;
+     padding: var(--p);
+     border-radius: var(--p) var(--p) 0 0;
+ }
+
+ .forum{
+    border-bottom: 2px solid;
+ }
+ .forum> p:last-child{
+     direction: rtl;
+ }
+
+div img{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.ads > div{
+    width: 14%;
+    background:linear-gradient(lightblue,blue);
+    text-align: center;
+    padding: 150px 0;
+    margin: 2px;
+    position: fixed;
+    border: 1px solid blue;
+    border-radius: var(--p);
+}
+
+.ads >div:first-child{
+    left: 0.5%;
+}
+
+.ads >div:last-child{
+    right: 0.5%;
+}
